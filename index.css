@@ -41,8 +41,13 @@ header{
     padding: 10px 0 0 0;
 }
 
+.header-image {
+    display: flex;
+}
+
 .pumpkin-img{
-    width: 80px;
+    width: 120px;
+    margin-bottom: 0;
 }
 
 .controls-container{
@@ -167,11 +172,11 @@ input[type="radio"]{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* .container {
-        height: 100%;
-    } */
+    .header-inner {
+        width: 80%;
+    }
 
-    .header-inner, .controls-container {
+    .controls-container {
         width: 40%;
     }
 
@@ -201,7 +206,7 @@ input[type="radio"]{
     }
 
     .pumpkin-img{
-        width: 120px;
+        width: 150px;
     }
 
     .radio {
