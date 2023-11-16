@@ -26,10 +26,20 @@ h3{
     margin: 25px;
 }
 
+h9 {
+    font-size: 12px;
+}
+
 /* layout */
+
+body {
+    background-image: url("images/christmas-background.jpg");
+    background-size: cover;
+}
 
 header{
     background-color: #67595E;
+    background-size: cover;
 }
 
 .header-inner{
@@ -55,6 +65,20 @@ header{
     flex-direction: column;
     width: 200px;
     margin: 0px auto;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+    gap: 60px;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* controls */
@@ -170,6 +194,16 @@ input[type="radio"]{
     border: 2px solid #bd301d;
 }
 
+/* Links */
+
+a {
+    color: #2888FF;
+}
+
+a:hover, a:active, a:visited {
+    color: #2888FF;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .header-inner {
@@ -185,10 +219,6 @@ input[type="radio"]{
         padding: 20px 0 0 0;
     }
 
-    /* h1, h2 {
-        font-size: 2rem;
-    } */
-
     h1{
         font-size: 56px;
     }
@@ -199,6 +229,10 @@ input[type="radio"]{
 
     h3 {
         font-size: 28px;
+    }
+
+    h9 {
+        font-size: 15px;
     }
 
     label {
