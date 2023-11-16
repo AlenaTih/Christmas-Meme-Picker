@@ -178,28 +178,28 @@ const catsData = [
 ]
 
 const christmasCatsData = [
-    // {
-    //     emotionTags: ["moody"],
-    //     isGif: false,
-    //     image: "",
-    //     alt: "A cat looking moody",
-    // },
-    // {
-    //     emotionTags: ["moody", "insomniac"],
-    //     isGif: false,
-    //     image: "",
-    //     alt: "A cat looking moody",
-    // },
-    // {
-    //     emotionTags: ["moody"],
-    //     isGif: false,
-    //     image: "",
-    //     alt: "A cat looking moody",
-    // },
+    {
+        emotionTags: ["moody"],
+        isGif: false,
+        image: "moody-christmas-dog.jpg",
+        alt: "A cat looking moody",
+    },
+    {
+        emotionTags: ["insomniac"],
+        isGif: false,
+        image: "insomniac-christmas-dog.jpg",
+        alt: "A cat looking moody",
+    },
     {
         emotionTags: ["confused"],
         isGif: false,
         image: "confused-christmas-cat.jpg",
+        alt: "A cat looking confused",
+    },
+    {
+        emotionTags: ["confused"],
+        isGif: false,
+        image: "confused-christmas-dog.jpg",
         alt: "A cat looking confused",
     },
     {
@@ -215,9 +215,15 @@ const christmasCatsData = [
         alt: "A cat looking happy",
     },
     {
+        emotionTags: ["happy"],
+        isGif: false,
+        image: "happy-christmas-dog.jpg",
+        alt: "A cat looking happy",
+    },
+    {
         emotionTags: ["hungry"],
         isGif: false,
-        image: "hungry-christmas-cat",
+        image: "hungry-christmas-cat.jpg",
         alt: "A cat looking hungry",
     },
     // {
@@ -232,6 +238,12 @@ const christmasCatsData = [
         image: "insomniac-christmas-cat.jpg",
         alt: "A cat looking insomniac",
     },
+    {
+        emotionTags: ["cold"],
+        isGif: false,
+        image: "cold-christmas-dog.jpg",
+        alt: "A cat looking moody",
+    },
     // {
     //     emotionTags: ["insomniac"],
     //     isGif: false,
@@ -245,23 +257,29 @@ const christmasCatsData = [
     //     alt: "A cat looking lazy",
     // },
     {
-        emotionTags: ["scared"],
-        isGif: true,
-        image: "scared-santa-cat.gif",
-        alt: "A cat looking nervous",
-    },
-    {
         emotionTags: ["sad"],
         isGif: false,
         image: "sad-christmas-cat.jpg",
         alt: "A cat looking sad",
     },
-    // {
-    //     emotionTags: ["sad", "moody"],
-    //     isGif: false,
-    //     image: "",
-    //     alt: "A cat looking sad",
-    // },
+    {
+        emotionTags: ["sad"],
+        isGif: false,
+        image: "sad-christmas-dog.jpg",
+        alt: "A cat looking sad",
+    },
+    {
+        emotionTags: ["sad", "moody"],
+        isGif: false,
+        image: "moody-sad-christmas-dog.jpg",
+        alt: "A cat looking sad",
+    },
+    {
+        emotionTags: ["scared"],
+        isGif: true,
+        image: "scared-santa-cat.gif",
+        alt: "A cat looking nervous",
+    },
     {
         emotionTags: ["cold"],
         isGif: true,
@@ -273,6 +291,12 @@ const christmasCatsData = [
         isGif: true,
         image: "moody-christmas-kitten.gif",
         alt: "A cat looking angry",
+    },
+    {
+        emotionTags: ["moody"],
+        isGif: true,
+        image: "moody-christmas-dog.gif",
+        alt: "A dog looking angry",
     },
     {
         emotionTags: ["confused"],
