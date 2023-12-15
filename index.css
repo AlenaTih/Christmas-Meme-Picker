@@ -39,6 +39,11 @@ body {
     background-size: cover;
 }
 
+.container {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
 header {
     background-color: #67595E;
     background-size: cover;
